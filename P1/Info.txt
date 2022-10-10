@@ -1,0 +1,97 @@
+ASP.NET Core
+
+Index
+----------------------------------------------
+ASP.NET es un entorno para aplicaciones web desarrollado y comercializado por Microsoft. Los programadores 
+o también diseñadores pueden utilizar este framework para construir sitios web dinámicos, aplicaciones web 
+y servicios web. Apareció en enero de 2002 con la versión 1.0 del .NET Framework, y es la tecnología sucesora
+ de la tecnología Active Server Pages (ASP). ASP.NET está construido sobre el Common Language Runtime, permitiendo 
+a los programadores escribir código ASP.NET usando cualquier lenguaje admitido por el .NET Framework.
+
+.NET (anteriormente llamado .NET Core) es un framework informático administrado, gratuito y de código abierto
+para los sistemas operativos Windows, Linux y macOS. Es un sucesor multiplataforma de .NET Framework.
+El proyecto es desarrollado principalmente por Microsoft bajo la licencia MIT.
+
+
+Historia
+------------------------------------
+
+
+La historia de ASP se remonta al año 1996. Por aquel entonces ASP era parte de la versión 3.0 de IIS (Internet Information Services). 
+ASP se creó con el objetivo de poder combinar código HTML con scripts, componentes ActiveX y código en Visual Basic ejecutado desde el servidor.
+Es a este hecho al que debe su nombre porque ASP significa Active Server Pages o páginas activas desde el servidor.
+
+Respecto a los scripts, recordemos que JavaScript era un lenguaje muy joven, se puede decir que recién creado. JavaScript tenía muchísimo potencial 
+puesto que gracias a él las páginas webs adquirían dinamismo y una “vida” de la que antes carecían por completo.
+
+En el año 97 ya había quejas de los desarrolladores pidiendo mecanismos para escribir código más limpio y poder separar la presentación, el HTML y el JavaScript,
+del contenido, por aquel entonces ActiveX. Fueron Scott Guthrie y Mark Anders los encargados de dirigir este proyecto de cambio que duró alrededor de 4 años y que
+comenzó llamándose XSP.
+
+El primer enfoque de Mark y Scott con XSP fue utilizar Java. Esto les llevó a querer tener ellos algo análogo a la JVM, la máquina virtual de Java, para no depender de ésta.
+Empezaron así a trabajar en el CLR, el Common Languaje Runtime, que en esencia era una imitación de la JVM y muchas de sus características como la orientación a objetos o
+la recolección de basura, algo altamente criticado durante años.
+
+Fue durante el diseño del CLR cuando se decidió crear también un nuevo lenguaje, uno potente, limpio, con una sintaxis similar a la de C y C++ y lo suficientemente
+        versátil como para competir con Java. Este proyecto tomó un nombre en clave, “Proyect Cool”, y tuvo un carácter de alto secreto dentro de Microsoft. A este 
+        lenguaje al principio se le llamó Cool, algunos trabajadores lo llamaban “Súper C”. Cool acabó convirtiéndose en C#, lenguaje con el que se reimplementó la 
+        nueva versión de ASP a la que se le llamó ASP+.
+
+        Se intentó que la migración a esta nueva plataforma fuera sencilla y ASP+ se lanzó oficialmente el 11 de Julio del año 2000. En aquella demostración llamó muchísimo
+        la atención la potencia del nuevo framework puesto que era posible combinar ASP con muchos otros lenguajes como COBOL. También se presentaron, entre otras muchas
+        novedades, los nuevos lenguajes de Microsoft, C# y Visual Basic .NET y fue en aquella segunda mitad del año 2000 cuando nació la marca “.NET”.
+
+        Tras unos meses de refinamiento y el lanzamiento de varias versiones de evaluación durante el año 2001 ASP.NET fue liberado con gran expectación en enero de 2002 
+        junto con la primera versión del .NET Framework.
+
+
+Versiones
+------------------------------------
+
+ASP.NET 1.0
+En 2002, año del lanzamiento de la versión 1.0 de ASP.NET, el hype era XML. XML era el rey como también lo fueron los Web Forms de ASP .NET, parte central de la plataforma.
+
+ASP.NET 2.0
+La evolución de ASP.NET fue unida a la evolución del .NET Framework y durante aquellos primeros años el framework aún era bastante inmaduro. .NET evolucionó mucho hasta el lanzamiento de 
+la versión 2.0 en 2005, y con ésta release apareció también la versión 2.0 de ASP.NET.
+
+ASP.NET MVC
+En el año 2007 Microsoft anunció la siguiente versión de ASP.NET, que se llamó ASP.NET MVC. El anuncio de este nuevo framework trajo novedades importantes. MVC no fue una evolución de los Web Forms
+sino un nuevo concepto que podía coexistir con ellos. Además se le dio muchísima importancia a la separación de responsabilidades, al TDD, al control del HTML generado y, en general, a la aplicabilidad 
+de los principios SOLID incluyendo el la creación de contenedores IoC (Inversion of Control) que nos permitieron aplicar inyección de dependencias a nuestros controladores.
+
+ASP.NET 4.0
+Como hemos visto, la evolución de .NET y ASP.NET van de la mano. En marzo de 2010 con el lanzamiento del .NET Framework 4.0 salió ASP.NET 4.0 y con esta versión empezamos a sentir el carácter y 
+la tendencia unificadora en el framework y herramientas de Microsoft.
+
+ASP.NET Core
+Tuvieron que pasar 6 años para alcanzar un nuevo hito en la historia de ASP.NET. En 2016 fue lanzado .NET Core y con él surgió ASP.NET Core. Éste fue un momento de divergencia pues el Framework “tradicional” 
+tuvo una evolución en versiones 4.x mientras que .NET Core surgió desde la versión 1.0 seguido muy de cerca por la 1.1 en lo que parecía que iba a ser un entorno completamente diferente. De hecho, para que ambos 
+frameworks pudieran coexistir se generó la especificación .NET Standard.
+
+ASP.NET Core 2.0
+Pronto, en 2017, se lanzó ASP.NET Core 2.0, en el que se introdujeron, aparte de mejoras de performance y metapaquetes que aceleraban el desarrollo, las páginas dinámicas con Razor. 
+Además, y como puente entre el framework tradicional y .NET Core, se lanzó la versión 2.0 de .NET Standard.
+
+ASP.NET Core 3.1
+Fue lanzado en 2019 y añadió soporte para clases parciales en Razor así como mejoras en la gestión de parámetros dentro de la jerarquía de las páginas.
+También supuso cambios importantes en la gestión de las SameSite Cookies.
+
+ASP.NET 5
+El año 2020 fue el año en el que por fin vimos hacerse realidad a la tan esperada convergencia entre el framework tradicional y .NET Core. Esta versión trajo mejoras y optimizaciones 
+tanto en .NET Core MVC como en Razor, como por ejemplo en los bindings o el autorefresco con dotnet watch.
+
+ASP.NET 6
+Y por fin, el 8 de noviembre de 2021, asistimos al lanzamiento de la primera versión LONG TERM SUPPORT (LTS) del completamente renovado .NET, y con ésta, ASP.NET 6. Pese a que ya se está
+trabajando en la siguiente versión Microsoft dará soporte a esta versión hasta el 8 de noviembre de 2024 ya que las LTS tienen soporte durante 3 años.
+
+
+Funcionamiento
+------------------------------------
+
+https://learn.microsoft.com/es-es/aspnet/core/getting-started/?view=aspnetcore-6.0&tabs=windows
+
+
+
+Utlidad
+-------------------------------------
