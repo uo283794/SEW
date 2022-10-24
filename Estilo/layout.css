@@ -1,0 +1,65 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*CSS encargado de describir la estructura de los html (excepto el formulario) 
+******************/
+
+body{
+    display: grid;
+    grid: "h h h h h" 
+          "n n n n n"
+          "m m m m m"
+          "m m m m m"
+          "m m m m m"
+          "m m m m m"
+          "f f f f f";
+}
+
+main{
+    display: grid;
+    grid: 
+          "s1 s1 s1 s1 s1"
+          "s1 s1 s1 s1 s1"
+          "s2 s2 s2 s2 s2"
+          "v v v v v"
+          "a a a a a"
+          "a a a a a"
+          "a a a a a"
+          "r r r r r"
+          "r r r r r"
+          "r r r r r";
+    grid-area: m;
+}
+
+nav{
+    display: grid;
+    grid-template-areas: ". . . . ."; 
+
+    grid-area: n;
+    
+}
+
+
+header{
+    display: grid;
+    grid: 
+          "i i t t t t"
+          "i i t t t t"
+          "i i t t t t";
+    
+    
+    grid-area :h
+}
+
+
+
+
+section:last-of-type   { grid-area: s2;  padding-top: 4%;    }
+aside{grid-area: a;}
+footer   { grid-area: f; }
+h1{grid-area: t; }
+img{grid-area: i;}
+article{grid-area: r; padding-top: 5%;}
+video{grid-area: v; }
+
+
+

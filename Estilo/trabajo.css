@@ -1,0 +1,34 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*descripcion
+*******************/
+header{
+    background-color: lightblue;
+    color: purple;
+    
+    border-radius: 1ch;
+    padding: 2%;
+}
+
+body{
+    margin:2%
+}
+
+header > nav{
+    background-color: purple;
+    border-style: solid;
+    border-radius: 1ch;
+    padding: 1%;
+}
+
+nav > a{
+    
+    padding: 1%;   
+    margin-right: 8%;
+   
+}
+
+section{
+    background-color: white;
+
+}
