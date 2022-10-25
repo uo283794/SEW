@@ -3,6 +3,7 @@
 /*CSS encargado de describir la estructura de los html (excepto el formulario) 
 ******************/
 
+/*Especificidad: (0,0,1)*/
 body{
     display: grid;
     grid: "h h h h h" 
@@ -14,6 +15,7 @@ body{
           "f f f f f";
 }
 
+/*Especificidad: (0,0,1)*/
 main{
     display: grid;
     grid: 
@@ -30,6 +32,7 @@ main{
     grid-area: m;
 }
 
+/*Especificidad: (0,0,1)*/
 nav{
     display: grid;
     grid-template-areas: ". . . . ."; 
@@ -38,7 +41,7 @@ nav{
     
 }
 
-
+/*Especificidad: (0,0,1)*/
 header{
     display: grid;
     grid: 
@@ -52,13 +55,19 @@ header{
 
 
 
-
+/*Especificidad: (0,1,1)*/
 section:last-of-type   { grid-area: s2;  padding-top: 4%;    }
+/*Especificidad: (0,0,1)*/
 aside{grid-area: a;}
+/*Especificidad: (0,0,1)*/
 footer   { grid-area: f; }
+/*Especificidad: (0,0,1)*/
 h1{grid-area: t; }
+/*Especificidad: (0,0,1)*/
 img{grid-area: i;}
+/*Especificidad: (0,0,1)*/
 article{grid-area: r; padding-top: 5%;}
+/*Especificidad: (0,0,1)*/
 video{grid-area: v; }
 
 

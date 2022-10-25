@@ -3,7 +3,7 @@
 /*CSS encargado de describir la estructura de html que contiene el formulario 
 ******************/
 
-
+/*Especificidad: (0,0,1)*/
 body{
     display: grid;
     grid: "h h h h h" 
@@ -15,6 +15,7 @@ body{
           "f f f f f";
 }
 
+/*Especificidad: (0,0,1)*/
 main{
     display: grid;
     grid: 
@@ -26,6 +27,7 @@ main{
     grid-area: m;
 }
 
+/*Especificidad: (0,0,1)*/
 nav{
     display: grid;
     grid-template-areas: ". . . . ."; 
@@ -34,7 +36,7 @@ nav{
     
 }
 
-
+/*Especificidad: (0,0,1)*/
 header{
     display: grid;
     grid: 
@@ -46,6 +48,7 @@ header{
     grid-area :h
 }
 
+/*Especificidad: (0,0,1)*/
 section   { 
     display: grid;
     grid: 
@@ -55,11 +58,16 @@ section   {
     padding-top: 1%;  
 }
 
-
+/*Especificidad: (0,0,1)*/
 footer   { grid-area: f; /* auto min-width */ }
+/*Especificidad: (0,0,1)*/
 h1{grid-area: t; }
+/*Especificidad: (0,0,1)*/
 h2{grid-area: st; }
+/*Especificidad: (0,0,1)*/
 img{grid-area: i;}
+/*Especificidad: (0,0,1)*/
 form{grid-area: fo; }
+/*Especificidad: (0,0,1)*/
 p{grid-area: p; }
 
