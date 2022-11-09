@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(94, 0, 0);
+}
+
+h1{
+    font-size: 500%;
+    color: white;
+    
+}
+
+section{
+    border: solid;
+    color: white;
+    
+    padding-bottom: 5%;
+}
+
+h2{
+    padding-left: 4%;
+}
+
+p{
+    padding-left: 4%;
+}
+
+video{
+    width: 40%;
+    height: auto;
+    padding-left: 5%;
+    
+}
+
+img{
+    padding-left: 10%;
+}
