@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>CalculadoraCientifica</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Daniel Alberto Alonso Fernandez" />
+    <meta name ="description" content ="Simulador de una calculadora cientifica" />
+    <meta name ="keywords" content ="calculadora, cientifica, windows, JavaScript" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />    
+    <script src="CalculadoraCientifica.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css"/>
+   
+</head>
+
+<body>
+    <main>
+        <label for="inputText">Calculadora Cientifica</label>
+        <input type="text" disabled id = "inputText" />
+
+        <input type="button" value="RAD" onClick = "c.deg()">
+        <input type="button" value="HYP" onClick = "c.hyp()">
+        <input type="button" value="F-E" onClick = "c.fe()">
+
+        <input type="button" value="Mc" onClick = "c.mrcC()">
+        <input type="button" value="Mr" onClick = "c.getMrc()">
+        <input type="button" value="M+" onClick = "c.mMas()">
+        <input type="button" value="M-" onClick = "c.mMenos()">
+        <input type="button" value="Ms" onClick = "c.ms()">
+        
+        <input type="button" value="x2" onClick = "c.pow2Rec()">
+        <input type="button" value="xy" onClick = "c.pow()">
+        <input type="button" value="sin" onClick = "c.sin()">
+        <input type="button" value="cos" onClick = "c.cos()">
+        <input type="button" value="tan" onClick = "c.tan()">
+
+        <input type="button" value="raiz" onClick = "c.raiz()">
+        <input type="button" value="10x" onClick = "c.pow10()">
+        <input type="button" value="log" onClick = "c.log()">
+        <input type="button" value="exp" onClick = "c.exp()">
+        <input type="button" value="mod" onClick = "c.mod()">     
+
+
+        <input type="button" value="Shift" onClick = "c.shift()">
+        <input type="button" value="CE" onClick = "c.borrar()">
+        <input type="button" value="C" onClick = "c.onOff()">
+        <input type="button" value="Delete" onClick = "c.borrar1()">
+        <input type="button" value="/" onClick = "c.division()">
+        
+        <input type="button" value="pi" onClick = "c.pi()">
+        <input type="button" value="7" onClick = "c.digitos(7)">
+        <input type="button" value="8" onClick = "c.digitos(8)">
+        <input type="button" value="9" onClick = "c.digitos(9)">
+        <input type="button" value="x" onClick = "c.multiplicacion()">
+        
+        
+        <input type="button" value="n!" onClick = "c.factorialRec()">
+        <input type="button" value="4" onClick = "c.digitos(4)">
+        <input type="button" value="5" onClick = "c.digitos(5)">
+        <input type="button" value="6" onClick = "c.digitos(6)">
+        <input type="button" value="-" onClick = "c.resta()">
+        
+        <input type="button" value="+/-" onClick = "c.masMenos()">
+        <input type="button" value="1" onClick = "c.digitos(1)">
+        <input type="button" value="2" onClick = "c.digitos(2)">
+        <input type="button" value="3" onClick = "c.digitos(3)">
+        <input type="button" value="+" onClick = "c.suma()">
+        
+        <input type="button" value="(" onClick = "c.pizq()">
+        <input type="button" value=")" onClick = "c.pdch()">
+        <input type="button" value="0" onClick = "c.digitos(0)">
+        <input type="button" value="." onClick = "c.ponerPunto()">
+        <input type="button" value="=" onClick = "c.igual()">
+        
+    </main>
+    
+</body>
+</html>

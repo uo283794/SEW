@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: darkred;
+    text-decoration: underline;
+}
+
+h2{
+    color: black
+}
+
+p{
+    background-color: white;
+    color: black;
+}
