@@ -1,0 +1,112 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*CSS encargado de describir la estructura de los html (excepto el formulario) 
+******************/
+
+/*Especificidad: (0,0,1)*/
+main{
+    display: grid;
+    grid:"l l l l l"
+         "t t t t t" 
+          "deg hyp fe . ."
+          "mrcc mrc mma mme ms"
+          "x2 xy sin cos tng"
+          "raiz x10 log exp mod"
+          "shi ce c del div"
+          "pi n7 n8 n9 por"
+          "fac n6 n5 n4 res"
+          "mm n1 n2 n3 mas"
+          "piz pde n0 pun igu";
+    gap: 2em;
+}
+input{padding: 1em;}
+
+label{grid-area: l; background-color: white;}
+input[type="text"]{grid-area: t;}
+
+input[value="DEG"]{grid-area: deg;}
+input[value="RAD"]{grid-area: deg;}
+input[value="GRAD"]{grid-area: deg;}
+input[value="HYP"]{grid-area: hyp;}
+input[value="F-E"]{grid-area: fe;}
+
+input[value="Mc"]{grid-area: mrcc;}
+input[value="Mr"]{grid-area: mrc;}
+input[value="M+"]{grid-area: mma;}
+input[value="M-"]{grid-area: mme;}
+input[value="Ms"]{grid-area: ms;}
+
+input[value="x2"]{grid-area: x2;}
+input[value="xy"]{grid-area: xy;}
+input[value="sin"]{grid-area: sin;}
+input[value="cos"]{grid-area: cos;}
+input[value="tan"]{grid-area: tng}
+
+input[value="arcSin"]{grid-area: sin;}
+input[value="arcCos"]{grid-area: cos;}
+input[value="arcTan"]{grid-area: tng}
+
+input[value="sinh"]{grid-area: sin;}
+input[value="cosh"]{grid-area: cos;}
+input[value="tanh"]{grid-area: tng}
+
+input[value="arcSinh"]{grid-area: sin;}
+input[value="arcCosh"]{grid-area: cos;}
+input[value="arcTanh"]{grid-area: tng}
+
+input[value="raiz"]{grid-area: raiz;}
+input[value="10x"]{grid-area: x10;}
+input[value="log"]{grid-area: log;}
+input[value="exp"]{grid-area: exp;}
+input[value="mod"]{grid-area: mod;}
+
+input[value="Shift"]{grid-area: shi;}
+input[value="CE"]{grid-area: ce;}
+input[value="C"]{grid-area: c;}
+input[value="Delete"]{grid-area: del;}
+input[value="/"]{grid-area: div;}
+
+input[value="pi"]{grid-area: pi;}
+input[value="7"]{grid-area: n7;}
+input[value="8"]{grid-area: n8;}
+input[value="9"]{grid-area: n9;}
+input[value="x"]{grid-area: por;}
+
+input[value="n!"]{grid-area: fac;}
+input[value="4"]{grid-area: n4;}
+input[value="5"]{grid-area: n5;}
+input[value="6"]{grid-area: n6;}
+input[value="-"]{grid-area: res;}
+
+input[value="+/-"]{grid-area: mm;}
+input[value="1"]{grid-area: n1;}
+input[value="2"]{grid-area: n2;}
+input[value="3"]{grid-area: n3;}
+input[value="+"]{grid-area: mas;}
+
+input[value="("]{grid-area: piz;}
+input[value=")"]{grid-area: pde;}
+input[value="0"]{grid-area: n0;}
+input[value="."]{grid-area: pun;}
+input[value="="]{grid-area: igu;}
+
+
+input[type = "text"]{
+    
+    padding-bottom: 5%;
+    
+}
+
+input[type = "button"]{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+main{
+    background-color: #cfecff;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
