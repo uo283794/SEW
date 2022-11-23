@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>CalculadoraMilan</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Daniel Alberto Alonso Fernandez" />
+    <meta name ="description" content ="Simulador de la calculadora milan" />
+    <meta name ="keywords" content ="calculadora, milan, JavaScript" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />    
+    <script src="CalculadoraMilan.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="CalculadoraMilan.css"/>
+   
+</head>
+
+<body>
+    <main>
+        <label for="inputText">Nata by Milan</label>
+        <input type="text" disabled id = "inputText" />
+
+        <input type="button" value="On" onClick = "c.onOff()">
+        <input type="button" value="CE" onClick = "c.borrar()">
+        <input type="button" value="+/-" onClick = "c.masMenos()">
+        <input type="button" value="Raiz" onClick = "c.raiz()">
+        <input type="button" value="%" onClick = "c.porcentaje()">
+        
+        <input type="button" value="7" onClick = "c.digitos(7)">
+        <input type="button" value="8" onClick = "c.digitos(8)">
+        <input type="button" value="9" onClick = "c.digitos(9)">
+        <input type="button" value="x" onClick = "c.multiplicacion()">
+        <input type="button" value="/" onClick = "c.division()">
+        
+        <input type="button" value="4" onClick = "c.digitos(4)">
+        <input type="button" value="5" onClick = "c.digitos(5)">
+        <input type="button" value="6" onClick = "c.digitos(6)">
+        <input type="button" value="-" onClick = "c.resta()">
+        <input type="button" value="Mrc" onClick = "c.getMrc()">
+
+        <input type="button" value="1" onClick = "c.digitos(1)">
+        <input type="button" value="2" onClick = "c.digitos(2)">
+        <input type="button" value="3" onClick = "c.digitos(3)">
+        <input type="button" value="+" onClick = "c.suma()">
+        <input type="button" value="M-" onClick = "c.mMenos()">
+
+        <input type="button" value="0" onClick = "c.digitos(0)">
+        <input type="button" value="." onClick = "c.punto()">
+        <input type="button" value="=" onClick = "c.igual()">
+        <input type="button" value="M+" onClick = "c.mMas()">
+    </main>
+    
+</body>
+</html>
