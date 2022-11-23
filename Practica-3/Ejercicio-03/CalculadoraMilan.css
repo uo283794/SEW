@@ -1,0 +1,72 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*CSS encargado de describir la estructura de los html (excepto el formulario) 
+******************/
+
+/*Especificidad: (0,0,1)*/
+main{
+    display: grid;
+    grid: "l l l l l" 
+          "t t t t t" 
+          "on ce ne r por"
+          "si o n po e"
+          "cu ci s m mr"
+          "u d tr p mm"
+          "c co i p mp";
+    gap: 2em;
+}
+input{padding: 1em;}
+
+label{grid-area: l; background-color: white;}
+input[type="text"]{grid-area: t;}
+
+input[value="On"]{grid-area: on;}
+input[value="CE"]{grid-area: ce;}
+input[value="+/-"]{grid-area: ne;}
+input[value="Raiz"]{grid-area: r;}
+input[value="%"]{grid-area: por;}
+
+input[value="7"]{grid-area: si;}
+input[value="8"]{grid-area: o;}
+input[value="9"]{grid-area: n;}
+input[value="X"]{grid-area: po;}
+input[value="/"]{grid-area: e;}
+
+input[value="4"]{grid-area: cu;}
+input[value="5"]{grid-area: ci;}
+input[value="6"]{grid-area: s;}
+input[value="-"]{grid-area: m;}
+input[value="Mrc"]{grid-area: mr;}
+
+input[value="1"]{grid-area: u;}
+input[value="2"]{grid-area: d;}
+input[value="3"]{grid-area: tr;}
+input[value="+"]{grid-area: p;}
+input[value="M-"]{grid-area: mm;}
+
+input[value="0"]{grid-area: c;}
+input[value="."]{grid-area: co;}
+input[value="="]{grid-area: i;}
+input[value="M+"]{grid-area: mp;}
+
+input[type = "text"]{
+    
+    padding-bottom: 5%;
+    
+}
+
+input[type = "button"]{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+main{
+    background-color: #edeaea;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+

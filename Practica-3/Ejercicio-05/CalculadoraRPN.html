@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>CalculadoraRPN</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Daniel Alberto Alonso Fernandez" />
+    <meta name ="description" content ="Simulador de una calculadora RPN" />
+    <meta name ="keywords" content ="calculadora, RPN, JavaScript" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />    
+    <script src="CalculadoraRPN.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css"/>
+   
+</head>
+
+<body>
+    <main>
+        <label for="textArea">Calculadora RPN</label>
+        <textarea rows="6" disabled id = "textArea"></textarea>
+        <label for="inputText">Input:</label>
+        <input type="text" disabled id = "inputText" />
+
+        <input type="button" value="On" onClick = "c.onOff()">
+        <input type="button" value="CE" onClick = "c.ce()">
+        <input type="button" value="Sin" onClick = "c.sin()">
+        <input type="button" value="Cos" onClick = "c.cos()">
+        <input type="button" value="Tan" onClick = "c.tan()">
+        
+        <input type="button" value="7" onClick = "c.digitos(7)">
+        <input type="button" value="8" onClick = "c.digitos(8)">
+        <input type="button" value="9" onClick = "c.digitos(9)">
+        <input type="button" value="x" onClick = "c.multiplicacion()">
+        <input type="button" value="/" onClick = "c.division()">
+        
+        <input type="button" value="4" onClick = "c.digitos(4)">
+        <input type="button" value="5" onClick = "c.digitos(5)">
+        <input type="button" value="6" onClick = "c.digitos(6)">
+        <input type="button" value="-" onClick = "c.resta()">
+        <input type="button" value="ArcSin" onClick = "c.arcsin()">
+
+        <input type="button" value="1" onClick = "c.digitos(1)">
+        <input type="button" value="2" onClick = "c.digitos(2)">
+        <input type="button" value="3" onClick = "c.digitos(3)">
+        <input type="button" value="+" onClick = "c.suma()">
+        <input type="button" value="ArcCos" onClick = "c.arcos()">
+
+        <input type="button" value="0" onClick = "c.digitos(0)">
+        <input type="button" value="." onClick = "c.punto()">
+        <input type="button" value="Enter" onClick = "c.enter()">
+        <input type="button" value="ArcTan" onClick = "c.arctan()">
+    </main>
+    
+</body>
+</html>
