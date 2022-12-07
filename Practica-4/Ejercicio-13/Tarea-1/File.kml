@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+<kml xmlns="http://www.opengis.net/kml/2.2">        
+    <Document>
+        <Placemark>                    
+            <name>Lugar de nacimiento de: Alex Garcia</name>                    
+            <description>"Estoy en Barcelona"</description>                     
+            <Point>
+                <coordinates> 2.1399075971404056,41.379131386671354,0.0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>                        
+            <name>Lugar de residencia de: Alex Garcia</name>                        
+            <description>"Estoy en Barcelona"</description>                         
+            <Point>
+                <coordinates> 2.1399075971404056,41.379131386671359,0.0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>                        
+            <name>Lugar de nacimiento de: Bea Alonso</name>                        
+            <description>"Estoy en Betanzos"</description>                         
+            <Point>
+                <coordinates> -8.21341602725915,43.279435717372394,0.0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>                        
+            <name>Lugar de residencia de: Bea Alonso</name>                        
+            <description>"Estoy en Betanzos"</description>                         
+            <Point>
+                <coordinates> -8.21341602725915,43.279435717372399,0.0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>                        
+            <name>Lugar de nacimiento de: Carlos Garcia</name>                        
+            <description>"Estoy en Madrid"</description>                         
+            <Point>
+                <coordinates> -3.7038092662288356,40.41973833652415,0.0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>                        
+            <name>Lugar de residencia de: Carlos Garcia</name>                        
+            <description>"Estoy en Madrid"</description>                         
+            <Point>
+                <coordinates> -3.7038092662288356,40.41973833652419,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Dani Alonso</name>
+                        
+        <description>"Estoy en Gijon"</description> 
+                        
+        <Point>
+        <coordinates> -5.675495680046025,43.53766090351515,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Dani Alonso</name>
+                        
+        <description>"Estoy en Gijon"</description> 
+                        
+        <Point>
+        <coordinates> -5.675495680046025,43.53766090351519,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Esther Suarez</name>
+                        
+        <description>"Estoy en Oviedo"</description> 
+                        
+        <Point>
+        <coordinates> -5.854880402784319,43.366592568627844,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Esther Suarez</name>
+                        
+        <description>"Estoy en Oviedo"</description> 
+                        
+        <Point>
+        <coordinates> -5.854880402784319,43.366592568627849,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Fran Suarez</name>
+                        
+        <description>"Estoy en Lisboa"</description> 
+                        
+        <Point>
+        <coordinates> -9.1412940498697,38.74249731147183,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Fran Suarez</name>
+                        
+        <description>"Estoy en Lisboa"</description> 
+                        
+        <Point>
+        <coordinates> -9.1412940498697,38.74249731147189,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Guille Garcia</name>
+                        
+        <description>"Estoy en Sevilla"</description> 
+                        
+        <Point>
+        <coordinates> -5.985616904148191,37.39417303200554,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Guille Garcia</name>
+                        
+        <description>"Estoy en Sevilla"</description> 
+                        
+        <Point>
+        <coordinates> -5.985616904148191,37.39417303200559,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Helen Garcia</name>
+                        
+        <description>"Estoy en Malaga"</description> 
+                        
+        <Point>
+        <coordinates> -4.4193106203856685,36.7203655218531,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Helen Garcia</name>
+                        
+        <description>"Estoy en Malaga"</description> 
+                        
+        <Point>
+        <coordinates> -4.4193106203856685,36.7203655218539,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Ines Garcia</name>
+                        
+        <description>"Estoy en Bilbao"</description> 
+                        
+        <Point>
+        <coordinates> -2.9261077451180255,43.252273507764016,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Ines Garcia</name>
+                        
+        <description>"Estoy en Bilbao"</description> 
+                        
+        <Point>
+        <coordinates> -2.9261077451180255,43.252273507764019,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Juan Garcia</name>
+                        
+        <description>"Estoy en Santader"</description> 
+                        
+        <Point>
+        <coordinates> -3.822142046935566,43.468490959136005,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Juan Garcia</name>
+                        
+        <description>"Estoy en Santader"</description> 
+                        
+        <Point>
+        <coordinates> -3.822142046935566,43.468490959136009,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Kiliam Garcia</name>
+                        
+        <description>"Estoy en Almeria"</description> 
+                        
+        <Point>
+        <coordinates> -2.4673478876776573,36.838319452545036,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Kiliam Garcia</name>
+                        
+        <description>"Estoy en Almeria"</description> 
+                        
+        <Point>
+        <coordinates> -2.4673478876776573,36.838319452545039,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Lucia Garcia</name>
+                        
+        <description>"Estoy en Jaen"</description> 
+                        
+        <Point>
+        <coordinates> -3.777300197095887,37.78913422447482,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Lucia Garcia</name>
+                        
+        <description>"Estoy en Jaen"</description> 
+                        
+        <Point>
+        <coordinates> -3.777300197095887,37.78913422447489,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de nacimiento de: Mario Garcia</name>
+                        
+        <description>"Estoy en Leon"</description> 
+                        
+        <Point>
+        <coordinates> -5.572585467273354,42.600946867503005,0.0</coordinates>
+        </Point>
+        </Placemark>
+
+        <Placemark>
+                        
+        <name>Lugar de residencia de: Mario Garcia</name>
+                        
+        <description>"Estoy en Leon"</description> 
+                        
+        <Point>
+        <coordinates> -5.572585467273354,42.600946867503009,0.0</coordinates>
+        </Point>
+        </Placemark>
+    </Document>
+       
+ </kml>

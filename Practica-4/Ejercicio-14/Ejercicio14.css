@@ -1,0 +1,15 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*descripcion
+***/
+
+input{
+    margin: 2%;    
+    
+}
+
+canvas{
+    border: solid;
+    width: 80%;
+    height: 80%;
+}
