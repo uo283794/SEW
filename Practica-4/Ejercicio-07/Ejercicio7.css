@@ -1,0 +1,13 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*descripcion
+***/
+table, th, td{  
+    border-style: solid;
+    
+} 
+ 
+th{ 
+    background-color: yellow;
+    color:black;
+}

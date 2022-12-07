@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio7</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Daniel Alberto Alonso Fernandez" />
+    <meta name ="description" content ="Ejercicio de prueba con JavaScript" />
+    <meta name ="keywords" content ="JavaScript, universidad, carrera" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="Ejercicio7.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css"/>
+   
+</head>
+
+<body>
+    <h1>Ejercicio 7</h1>
+
+    <h2>Tarea 1</h2>
+    <p>Tarea 1: Mostrar y ocultar elementos HTML</p>
+    <input type="button" value="Ocultar" onClick = "jq.ocultar()">
+    <input type="button" value="Mostrar" onClick = "jq.mostrar()">
+
+    <h2>Tarea 2</h2>
+    <p>Tarea 2: Modificar algunos elementos HTML</p>
+    <input type="button" value="Modificar" onClick = "jq.modificar()">
+    <input type="button" value="Volver" onClick = "jq.volver()">
+
+    <h2>Tarea 3</h2>
+    <p>Tarea 3: Añadir nuevos elementos HTML</p>
+    <input type="button" value="Añadir elemento" onClick = "jq.añadir()">
+
+    <h2>Tarea 4</h2>
+    <p>Tarea 4: Eliminar nuevos elementos HTML</p>
+    <input type="button" value="Eliminar elemento" onClick = "jq.eliminar()">
+
+    <h2>Tarea 5</h2>
+    <h3>Recorrido del Arbol Dom</h3>
+    <p>Tarea 5: Recorrer todos los elementos y mostrar de cada uno de ellos</p>
+    <input type="button" value="Mostrar elementos HTML" onClick = "jq.recorrer()">
+    <pre></pre>
+
+    <h2>Tarea 6</h2>
+    <p>Tarea 6: Sumar las filas y columnas de la tabla</p>
+
+    <table>
+        <tr>
+            <th scope = "col" id="filas">Filas</th><th scope = "col" id="c1">Columna-1</th><th scope = "col" id="c2">Columna-2</th><th scope = "col" id="c3">Columna-3</th>
+        </tr>
+        
+        <tr>
+            <th scope = "row" id="f1" headers="filas">Fila-1</th>
+            <td headers="f1 c1">1</td>
+            <td headers="f1 c2">2</td>
+            <td headers="f1 c3"></td>
+        </tr>
+
+        <tr>
+            <th scope = "row" id="f2" headers="filas">Fila-2</th>
+            <td headers="f2 c1">3</td>
+            <td headers="f2 c2">4</td>
+            <td headers="f2 c3"></td>
+        </tr>
+
+        <tr>
+            <th scope = "row" id="f3" headers="filas">Fila-3</th>
+            <td headers="f3 c1"></td>
+            <td headers="f3 c2"></td>
+            <td headers="f3 c3"></td>
+        </tr>
+    </table>
+    <input type="button" value="Sumar filas y columnas" onClick = "jq.sumar()">
+    
+
+
+</body>
+</html>
