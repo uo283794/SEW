@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Ejercicio7</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Daniel Alberto Alonso Fernandez">
+    <meta name="description" content="Formulario en php con mysql">
+    <meta name="keywords" content="mysql, php, form">
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+   
+</head>
+
+<body>
+
+    
+    <nav>
+        <a tabindex="1" accesskey="q" href="Ejercicio7.php#crearB">Crear Base de Datos</a>
+        <a tabindex="2" accesskey="w" href="Ejercicio7.php#crearT">Crear tablas</a>
+        <a tabindex="3" accesskey="e" href="Ejercicio7.php#cargarD">Cargar Datos</a>
+        <a tabindex="4" accesskey="r" href="Ejercicio7.php#addD">Add Titular</a>
+        <a tabindex="5" accesskey="t" href="Ejercicio7.php#addC">Add Casa</a>
+        <a tabindex="6" accesskey="y" href="Ejercicio7.php#addG">Add Garage</a>
+        <a tabindex="7" accesskey="u" href="Ejercicio7.php#addCo">Add Coche</a>
+        <a tabindex="8" accesskey="i" href="Ejercicio7.php#addM">Add Moto</a>
+        <a tabindex="9" accesskey="o" href="Ejercicio7.php#buscarI">Ver Inmuebles</a>
+        <a tabindex="10" accesskey="p" href="Ejercicio7.php#buscarV">Ver Vehiculos</a>
+        
+                     
+    </nav>
+
+
+    <form action="#" method="post" enctype="multipart/form-data"> 
+        <fieldset>
+            <fieldset id="crearB">
+                <legend> Crear Base de Datos </legend>                   
+                <input type="submit" name="creardb" value="Crear Base de Datos">
+            </fieldset>
+
+            <fieldset id="crearT">
+                <legend> Crear Tablas </legend>                   
+                <input type="submit" name="crearTabla" value="Crear tablas">
+            </fieldset>   
+
+            <fieldset id="cargarD">
+                <legend>Cargar datos</legend>    
+                <input type="submit" name="cargar" value="Cargar datos de prueba">
+            </fieldset>
+
+
+            <fieldset id="addD">
+                <legend> Add Titular </legend>                                 
+                <label for="idd">DNI del nuevo titular: </label>
+                <input type="text" name="dId" id="idd">
+
+                <label for="nd">Nombre del nuevo titular:</label>
+                <input type="text" name="nId" id="nd">                  
+                
+                <input type="submit" name="addD" value="Nuevo Titular">                      
+            </fieldset>
+
+            <fieldset>
+                <legend> Propiedades </legend> 
+                <fieldset id="addC">
+                    <legend> Add Casa </legend>                                 
+                    <label for="iddc">Introduzca el dni del propietario: </label>
+                    <input type="text" name="dcId" id="iddc">
+
+                    <label for="idc">Id del inmueble:</label>
+                    <input type="text" name="cId" id="idc">   
+                    
+                    <label for="idtc">Tipo de inmueble:</label>
+                    <input type="text" name="tcId" id="idtc"> 
+                    <input type="submit" name="addC" value="Nuevo Inmueble">                      
+                </fieldset>
+
+                <fieldset id="addG">
+                    <legend> Add Garage </legend>                                 
+                    <label for="iddg">Introduzca el dni del propietario: </label>
+                    <input type="text" name="dgId" id="iddg">
+
+                    <label for="idg">Id del garage:</label>
+                    <input type="text" name="gId" id="idg">   
+                    
+                    <label for="idcg">Calle del garage:</label>
+                    <input type="text" name="cgId" id="idcg"> 
+                    <input type="submit" name="addG" value="Nuevo Garage">  
+                        
+                </fieldset>
+            </fieldset>
+
+
+            <fieldset>
+                <legend> Vehiculos </legend> 
+                <fieldset id="addCo">
+                    <legend> Add Coche </legend>                                 
+                    <label for="iddco">Introduzca el codigo del garage: </label>
+                    <input type="text" name="dcoId" id="iddco">
+
+                    <label for="idco">Id del coche:</label>
+                    <input type="text" name="coId" id="idco">   
+                    
+                    <label for="idmco">Modelo:</label>
+                    <input type="text" name="mcoId" id="idmco"> 
+                    <input type="submit" name="addCo" value="Nuevo Coche">                      
+                </fieldset>
+
+                <fieldset id="addM">
+                    <legend> Add Moto </legend>                                 
+                    <label for="iddm">Introduzca el codigo del garage: </label>
+                    <input type="text" name="dmId" id="iddm">
+
+                    <label for="idm">Id de la moto:</label>
+                    <input type="text" name="mId" id="idm">   
+                    
+                    <label for="idmam">Marca:</label>
+                    <input type="text" name="mamId" id="idmam"> 
+                    <input type="submit" name="addMo" value="Nueva Moto">  
+                        
+                </fieldset>
+            </fieldset>
+
+
+            <fieldset id="buscarI">
+                <legend> Inmuebles </legend>                                 
+                <label for="idgi">Introduzca el dni del propietario: </label>
+                <input type="text" name="giId" id="idgi">
+                <input type="submit" name="buscarIn" value="Buscar Inmuebles">
+                <section>
+                    <h2>Inmuebles:</h2>
+                    <p>Id casa: 1     Tipo: piso</p>
+<p>Id garage: 1     Calle: uria</p>
+<p>Id garage: 2     Calle: leon</p>
+                </section>
+            </fieldset>
+
+            <fieldset id="buscarV">
+                <legend> Vehiculos </legend>                                 
+                <label for="idgv">Introduzca el dni del propietario: </label>
+                <input type="text" name="gvId" id="idgv">
+                <input type="submit" name="buscarVe" value="Buscar Vehiculos">
+                <section>
+                    <h2>Vehiculos:</h2>
+                    <p>Id moto: 2     Marca: yamaha</p>
+<p>Id moto: 3     Marca: kawasaki</p>
+                </section>
+            </fieldset>           
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend> Log </legend>                                 
+            <p>Consulta realizada de forma exitosa</p>
+        </fieldset>
+        
+    </form>
+    
+
+</body></html>

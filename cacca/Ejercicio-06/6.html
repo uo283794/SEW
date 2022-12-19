@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Ejercicio6</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Daniel Alberto Alonso Fernandez">
+    <meta name="description" content="Formulario en php con mysql">
+    <meta name="keywords" content="mysql, php, form">
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+   
+</head>
+
+<body>
+
+    
+    <nav>
+        <a tabindex="1" accesskey="q" href="Ejercicio6.php#crearB">Crear Base de Datos</a>
+        <a tabindex="2" accesskey="w" href="Ejercicio6.php#crearT">Crear una tabla</a>
+        <a tabindex="3" accesskey="e" href="Ejercicio6.php#insertarD">Insertar datos</a>           
+        <a tabindex="4" accesskey="r" href="Ejercicio6.php#buscarD">Buscar datos</a>
+        <a tabindex="5" accesskey="t" href="Ejercicio6.php#modificarD">Modificar datos</a>  
+        <a tabindex="6" accesskey="y" href="Ejercicio6.php#eliminarD">Eliminar datos</a>
+        <a tabindex="7" accesskey="u" href="Ejercicio6.php#informeD">Generar informe</a>
+        <a tabindex="8" accesskey="i" href="Ejercicio6.php#importarD">Importar CSV</a>           
+        <a tabindex="9" accesskey="o" href="Ejercicio6.php#exportarD">Exportar CSV</a>
+                     
+    </nav>
+
+
+    <form action="#" method="post" enctype="multipart/form-data"> 
+        <fieldset>
+            <fieldset id="crearB">
+                <legend> Crear Base de Datos </legend>                   
+                <input type="submit" name="creardb" value="Crear Base de Datos">
+            </fieldset>
+
+            <fieldset id="crearT">
+                <legend> Crear una tabla </legend>                   
+                <input type="submit" name="crearTabla" value="Crear una tabla">
+            </fieldset>
+
+            <fieldset id="insertarD">
+                <legend> Insertar datos en la tabla</legend>                   
+                <label for="dni">DNI</label>
+                <input type="text" name="inId" id="dni">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="inNo" id="nombre">
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="inAp" id="apellido">
+
+                <label for="email">E-mail</label>
+                <input type="text" name="inEm" id="email">
+
+                <label for="tf">Telefono</label>
+                <input type="text" name="inTf" id="tf">
+
+                <label for="edad">Edad</label>
+                <input type="text" name="inEd" id="edad">
+
+                <fieldset>
+                    <legend> Sexo </legend>
+                    <p><input type="radio" name="inSe" value="hombre" id="h"><label for="h">Hombre</label></p>
+                    <p><input type="radio" name="inSe" value="mujer" id="m"><label for="m">Mujer</label></p>
+                </fieldset>
+
+                <label for="exp">Experiencia informatica (0-10)</label>
+                <input type="text" name="inEx" id="exp">
+
+                <label for="tmp">Tiempo de la resolucion de la prueba</label>
+                <input type="text" name="inTi" id="tmp">
+
+                <fieldset>
+                    <legend> Resolución de la prueba de forma correcta </legend>
+                    <p><input type="radio" name="inExito" value="1" id="si"><label for="si">Si</label></p>
+                    <p><input type="radio" name="inExito" value="0" id="no"><label for="no">No</label></p>                   
+                </fieldset>
+
+                <label for="com">Comentario sobre los problemas</label>
+                <input type="text" name="inCo" id="com">
+
+                <label for="pro">Propuestas de mejora</label>
+                <input type="text" name="inPr" id="pro">
+
+                <label for="val">Valoracion de la aplicacion (0-10)</label>
+                <input type="text" name="inVa" id="val">
+
+                <input type="submit" name="add" value="Insertar datos">
+            </fieldset>
+
+
+            <fieldset id="buscarD">
+                <legend> Buscar Datos </legend>                                 
+                <label for="idb">Introduzca el dni: </label>
+                <input type="text" name="bId" id="idb">
+                <input type="submit" name="buscar" value="Buscar datos">
+                <p>DNI: 1   Nombre: 1   Apellido: 1   Email: 1   Telefono: 1   Edad: 1   Sexo: hombre   Experiencia: 1   Tiempo: 1   Aprobado: 1   Comentario: 1   Propuesta: 1   Puntuacion: 1
+</p>
+            </fieldset>
+
+
+            <fieldset id="modificarD">
+                <legend> Modificar Datos </legend>                                 
+                <label for="idm">Introduzca el dni del usuario a modificar: </label>
+                <input type="text" name="mId" id="idm">
+
+                <label for="nombrem">Nombre</label>
+                <input type="text" name="mNo" id="nombrem">
+
+                <label for="apellidom">Apellido</label>
+                <input type="text" name="mAp" id="apellidom">
+
+                <label for="emailm">E-mail</label>
+                <input type="text" name="mEm" id="emailm">
+
+                <label for="tfm">Telefono</label>
+                <input type="text" name="mTf" id="tfm">
+
+                <label for="edadm">Edad</label>
+                <input type="text" name="mEd" id="edadm">
+
+                <fieldset>
+                    <legend> Sexo </legend>
+                    <p><input type="radio" name="mSe" value="hombre" id="hm"><label for="hm">Hombre</label></p>
+                    <p><input type="radio" name="mSe" value="mujer" id="mm"><label for="mm">Mujer</label></p>
+                </fieldset>
+
+                <label for="expm">Experiencia informatica (0-10)</label>
+                <input type="text" name="mEx" id="expm">
+
+                <label for="tmpm">Tiempo de la resolucion de la prueba</label>
+                <input type="text" name="mTi" id="tmpm">
+
+                <fieldset>
+                    <legend> Resolución de la prueba de forma correcta </legend>
+                    <p><input type="radio" name="mExito" value="1" id="sim"><label for="sim">Si</label></p>
+                    <p><input type="radio" name="mExito" value="0" id="nom"><label for="nom">No</label></p>                
+                </fieldset>   
+
+                <label for="comm">Comentario sobre los problemas</label>
+                <input type="text" name="mCo" id="comm">
+
+                <label for="prom">Propuestas de mejora</label>
+                <input type="text" name="mPr" id="prom">
+
+                <label for="valm">Valoracion de la aplicacion (0-10)</label>
+                <input type="text" name="mVa" id="valm">
+
+                <input type="submit" name="modificar" value="Modificar usuario">
+                    
+            </fieldset>
+
+
+            <fieldset id="eliminarD">
+                <legend> Eliminar Usuario </legend>                                 
+                <label for="idd">Introduzca el dni del usuario a eliminar: </label>
+                <input type="text" name="dId" id="idd">
+                <input type="submit" name="eliminar" value="Eliminar usuario">
+            </fieldset>
+
+            <fieldset id="informeD">
+                <legend> Informe de los datos </legend>                                 
+                <input type="submit" name="informe" value="Generar informe">
+                <section>
+                    <h2>Informe:</h2>
+                    <p>Edad media: 25.25</p><p>Porcentaje de hombres: 75%</p><p>Porcentaje de mujeres: 25%</p><p>Nivel medio de pericia informatica: 4.25</p><p>Tiempo medio en realizar la prueba: 60.25</p><p>Porcentaje de usuarios que han realizado la prueba correctamente: 75%</p><p>Valoracion media de la aplicacion: 2.75</p>                </section>
+            </fieldset>
+
+            <fieldset id="importarD">
+                <legend>Importar documento</legend>    
+                <label for="fi">Importe un documento .csv</label>                             
+                <input type="file" name="csvF" id="fi">
+                <input type="submit" name="importar" value="Importar archivo">
+            </fieldset>
+
+            <fieldset id="exportarD">
+                <legend>Exportar datos en .csv</legend>          
+                <input type="submit" name="exportar" value="Exportar datos">
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend> Log </legend>                                 
+                <p>Consulta realizada de forma exitosa</p>
+            </fieldset>
+
+        </fieldset>
+        
+    </form>
+    
+
+</body></html>

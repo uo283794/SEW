@@ -1,0 +1,70 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*CSS encargado de describir la estructura de los html (excepto el formulario) 
+******************/
+
+/*Especificidad: (0,0,1)*/
+form{
+    display: grid;
+    grid: "l l l l l" 
+          "t t t t t" 
+          "on ce ne r por"
+          "si o n po e"
+          "cu ci s m mr"
+          "u d tr p mm"
+          "c co i p mp";
+    gap: 2em;
+}
+input{padding: 1em;}
+
+label{grid-area: l; background-color: white;}
+input[type = "text"]{grid-area: t; padding-bottom: 5%;}
+
+
+input[type = "submit"][value="On"]{grid-area: on;}
+input[type = "submit"][value="CE"]{grid-area: ce;}
+input[type = "submit"][value="+/-"]{grid-area: ne;}
+input[type = "submit"][value="Raiz"]{grid-area: r;}
+input[type = "submit"][value="%"]{grid-area: por;}
+
+input[type = "submit"][value="7"]{grid-area: si;}
+input[type = "submit"][value="8"]{grid-area: o;}
+input[type = "submit"][value="9"]{grid-area: n;}
+input[type = "submit"][value="X"]{grid-area: po;}
+input[type = "submit"][value="/"]{grid-area: e;}
+
+input[type = "submit"][value="4"]{grid-area: cu;}
+input[type = "submit"][value="5"]{grid-area: ci;}
+input[type = "submit"][value="6"]{grid-area: s;}
+input[type = "submit"][value="-"]{grid-area: m;}
+input[type = "submit"][value="Mrc"]{grid-area: mr;}
+
+input[type = "submit"][value="1"]{grid-area: u;}
+input[type = "submit"][value="2"]{grid-area: d;}
+input[type = "submit"][value="3"]{grid-area: tr;}
+input[type = "submit"][value="+"]{grid-area: p;}
+input[type = "submit"][value="M-"]{grid-area: mm;}
+
+input[type = "submit"][value="0"]{grid-area: c;}
+input[type = "submit"][value="."]{grid-area: co;}
+input[type = "submit"][value="="]{grid-area: i;}
+input[type = "submit"][value="M+"]{grid-area: mp;}
+
+
+
+
+input[type = "submit"]{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+form{
+    background-color: #edeaea;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+

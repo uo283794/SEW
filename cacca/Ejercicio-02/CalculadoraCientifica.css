@@ -1,0 +1,112 @@
+/*****************
+/* Autor: Daniel Alberto Alonso
+/*CSS encargado de describir la estructura de los html (excepto el formulario) 
+******************/
+
+/*Especificidad: (0,0,1)*/
+form{
+    display: grid;
+    grid:"l l l l l"
+         "t t t t t" 
+          "deg hyp . . ."
+          "mrcc mrc mma mme ms"
+          "x2 xy sin cos tng"
+          "raiz x10 log exp mod"
+          "shi ce c del div"
+          "pi n7 n8 n9 por"
+          "fac n6 n5 n4 res"
+          "mm n1 n2 n3 mas"
+          "piz pde n0 pun igu";
+    gap: 2em;
+}
+input{padding: 1em;}
+
+label{grid-area: l; background-color: white;}
+input[type="text"]{grid-area: t;}
+
+input[type = "submit"][value="DEG"]{grid-area: deg;}
+input[type = "submit"][value="RAD"]{grid-area: deg;}
+input[type = "submit"][value="GRAD"]{grid-area: deg;}
+input[type = "submit"][value="HYP"]{grid-area: hyp;}
+/* input[type = "submit"][value="F-E"]{grid-area: fe;} */
+
+input[type = "submit"][value="Mc"]{grid-area: mrcc;}
+input[type = "submit"][value="Mr"]{grid-area: mrc;}
+input[type = "submit"][value="M+"]{grid-area: mma;}
+input[type = "submit"][value="M-"]{grid-area: mme;}
+input[type = "submit"][value="Ms"]{grid-area: ms;}
+
+input[type = "submit"][value="x2"]{grid-area: x2;}
+input[type = "submit"][value="xy"]{grid-area: xy;}
+input[type = "submit"][value="sin"]{grid-area: sin;}
+input[type = "submit"][value="cos"]{grid-area: cos;}
+input[type = "submit"][value="tan"]{grid-area: tng}
+
+input[type = "submit"][value="arcSin"]{grid-area: sin;}
+input[type = "submit"][value="arcCos"]{grid-area: cos;}
+input[type = "submit"][value="arcTan"]{grid-area: tng}
+
+input[type = "submit"][value="sinh"]{grid-area: sin;}
+input[type = "submit"][value="cosh"]{grid-area: cos;}
+input[type = "submit"][value="tanh"]{grid-area: tng}
+
+input[type = "submit"][value="arcSinh"]{grid-area: sin;}
+input[type = "submit"][value="arcCosh"]{grid-area: cos;}
+input[type = "submit"][value="arcTanh"]{grid-area: tng}
+
+input[type = "submit"][value="raiz"]{grid-area: raiz;}
+input[type = "submit"][value="10x"]{grid-area: x10;}
+input[type = "submit"][value="log"]{grid-area: log;}
+input[type = "submit"][value="exp"]{grid-area: exp;}
+input[type = "submit"][value="mod"]{grid-area: mod;}
+
+input[type = "submit"][value="Shift"]{grid-area: shi;}
+input[type = "submit"][value="CE"]{grid-area: ce;}
+input[type = "submit"][value="C"]{grid-area: c;}
+input[type = "submit"][value="Delete"]{grid-area: del;}
+input[type = "submit"][value="/"]{grid-area: div;}
+
+input[type = "submit"][value="pi"]{grid-area: pi;}
+input[type = "submit"][value="7"]{grid-area: n7;}
+input[type = "submit"][value="8"]{grid-area: n8;}
+input[type = "submit"][value="9"]{grid-area: n9;}
+input[type = "submit"][value="x"]{grid-area: por;}
+
+input[type = "submit"][value="n!"]{grid-area: fac;}
+input[type = "submit"][value="4"]{grid-area: n4;}
+input[type = "submit"][value="5"]{grid-area: n5;}
+input[type = "submit"][value="6"]{grid-area: n6;}
+input[type = "submit"][value="-"]{grid-area: res;}
+
+input[type = "submit"][value="+/-"]{grid-area: mm;}
+input[type = "submit"][value="1"]{grid-area: n1;}
+input[type = "submit"][value="2"]{grid-area: n2;}
+input[type = "submit"][value="3"]{grid-area: n3;}
+input[type = "submit"][value="+"]{grid-area: mas;}
+
+input[type = "submit"][value="("]{grid-area: piz;}
+input[type = "submit"][value=")"]{grid-area: pde;}
+input[type = "submit"][value="0"]{grid-area: n0;}
+input[type = "submit"][value="."]{grid-area: pun;}
+input[type = "submit"][value="="]{grid-area: igu;}
+
+
+input[type = "text"]{
+    
+    padding-bottom: 5%;
+    
+}
+
+input[type = "button"]{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+form{
+    background-color: #edeaea;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
