@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Escritorio Virtual</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Daniel Alberto Alonso Fernandez"/>
+    <meta name ="description" content ="Escritorio Virtual" />
+    <meta name ="keywords" content ="Escritorio, Virtual, html, css, Uniovi" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="icon" href="multimedia/imagenes/favicon.ico">
+    
+   
+</head>
+
+<body>
+    <h1>Escritorio Virtual</h1>   
+    
+    <nav>
+        <a tabindex="1" accesskey="i" href="index.html">Escritorio Virtual</a>
+        <a tabindex="2" accesskey="a" href="agenda.html">Agenda</a>
+        <a tabindex="3" accesskey="j" href="juegos.html">Juegos</a>           
+        <a tabindex="4" accesskey="m" href="meteorologia.html">Meteorologia</a>
+        <a tabindex="5" accesskey="n" href="noticias.html">Noticias</a>  
+        <a tabindex="6" accesskey="v" href="viajes.html">Viajes</a>  
+        <a tabindex="7" accesskey="s" href="sobremi.html">Sobre Mi</a>    
+    </nav>
+
+    <h2>Sobre mi</h2>
+
+    <picture>
+        <source srcset="multimedia/fotoMovil.jpg" media="(max-width: 465px)"/>
+        <source srcset="multimedia/fotoTablet.jpg" media="(max-width: 799px)"/>
+        <source srcset="multimedia/fotoEscritorio.jpg" media="(min-width: 800px)"/>
+        <img title="Daniel Alberto Alonso Fernandez" src="multimedia/fotoEscritorio.jpg" alt="Foto Daniel Alberto Alonso Fernandez" />
+    </picture>
+
+    <h3>Nombre</h3>
+    <p>Daniel Alberto</p>
+
+    <h3>Apellidos</h3>
+    <p>Alonso Fernandez</p>
+
+    <h3>Identificacion UO</h3>
+    <p>UO283794</p>
+
+    <h3>Correo electronico</h3>
+    <p>uo283794@uniovi.es</p>
+
+    <h3>Presentacion</h3>
+    <p>Me llamo Daniel y soy un alumno de la Escuela de Ingenieria Informatica de Oviedo.</p>
+
+    <h3>Aficiones</h3>
+    <ul>
+        <li>Practicar Surf</li>
+        <li>Practicar Escalada Deportiva</li>
+        <li>Investigar en el sector de la seguridad Informatica</li>
+        <li>Investigar en el sector del IoT</li>
+        <li>Practicar motociclismo</li>   
+    </ul>
+
+    <h3>Gustos musicales</h3>
+    <ol>
+        <li>AC/DC
+            <ul>
+                <li>T.N.T</li>
+                <li>Thunderstruck</li>
+                <li>Back In Black</li>
+            </ul>
+        </li>
+
+        <li>Aerosmith
+            <ul>
+                <li>Dream On</li>
+                <li>Eat The Rich</li>
+                <li>Criyin</li>
+            </ul>
+        </li>
+
+        <li>Green Day
+            <ul>
+                <li>Basket Case</li>
+                <li>Boulevard of Broken Dreams</li>
+                <li>American Idiot</li>
+            </ul>
+        </li>
+
+        <li>Sum 41
+            <ul>
+                <li>In Too Deep</li>
+                <li>Still Waiting</li>
+                <li>With Me</li>
+            </ul>
+        </li>
+
+        <li>Eminem
+            <ul>
+                <li>Without Me</li>
+                <li>Lose Yourself</li>
+                <li>Superman</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Asignaturas Favoritas</h3>
+    <dl>
+        <dt>Seguridad en Sistemas Informaticos</dt>
+        <dd>Asignatura impartida por el profesor Jose Manuel Redondo en la que se enseñan múltiples conceptos del mundo de la ciberseguridad.</dd>
+
+        <dt>Diseño del Software</dt>
+        <dd>Asignatura impartida por el profesor Cesar Fernandez en la que se enseñan los principios y patrones de diseños que debería seguir todo software. </dd>
+
+        <dt>Algoritmia</dt>
+        <dd>Asignatura impartida por el profesor Juan Ramon Perez en la que se enseñan los diferentes algoritmos capaces de resolver distintos problemas de la forma más optima. </dd>
+
+        <dt>Informatica Forense y Auditoria</dt>
+        <dd>Asignatura impartida por el profesor Antonio Garcia en la que enseñan diferentes tecnicas que un informatico forense deberia aplicar en diferentes escenarios legales.</dd>
+
+        <dt>Administracion de Sistemas y Redes</dt>
+        <dd>Asignatura impartida por el profesor Jose Antonio Corrales en la que enseñan como realizar diferentes tareas relativas a los sistemas operativos Windows Server y Linux.</dd>
+    </dl>
+
+    <h3>Temperaturas de Gijon</h3>
+    <table>
+        <thead>
+            <tr>
+                
+                <th>Año</th>
+                <th>Temperatura</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2017</td>
+                <td>13.3 Cº</td>
+            </tr>
+
+            <tr>
+                <td>2018</td>
+                <td>13.1 Cº</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>13.2 Cº</td>
+            </tr>
+
+            <tr>
+                <td>2020</td>
+                <td>13.8 Cº</td>
+            </tr>
+
+            <tr>
+                <td>2021</td>
+                <td>13.0 Cº</td>
+            </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th scope = "col" id="fila">Años</th>
+            <th scope = "col" id="c1">2017</th>
+            <th scope = "col" id="c2">2018</th>
+            <th scope = "col" id="c3">2019</th>
+            <th scope = "col" id="c4">2020</th>
+            <th scope = "col" id="c5">2021</th>
+        </tr>
+        
+        <tr>
+            <th scope = "row" id="f1" headers="fila">Temperatura</th>
+            <td headers="f1 c1">13.3</td>
+            <td headers="f1 c2">13.1</td>
+            <td headers="f1 c3">13.2</td>
+            <td headers="f1 c4">13.8</td>
+            <td headers="f1 c5">13.0</td>
+        </tr>
+    </table>
+
+
+
+    <h3>Peliculas Favoritas</h3>
+    <a title="Descifrando Enigmas"  href="https://www.filmaffinity.com/es/film617730.html"><p>Descrifrando Enigma</p></a>
+    <a title="Intocable"  href="https://www.filmaffinity.com/es/film217719.html"><p>Intocable</p></a>
+
+
+    <h3>Lugar Favorito</h3>
+    <video title="Video Asturias" controls>
+        <source src = "multimedia/videos/video.mp4" type="video/mp4">
+        <source src = "multimedia/videos/video.webm" type="video/webm">
+    </video>
+
+    <audio title="Himno Asturias" controls>
+        <source src="multimedia/audio.mp3" type="audio/mpeg">
+    </audio>
+
+
+</body>
+</html>
