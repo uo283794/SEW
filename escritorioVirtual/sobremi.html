@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Escritorio Virtual</title>
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Daniel Alberto Alonso Fernandez"/>
+    <meta name ="description" content ="Escritorio Virtual" />
+    <meta name ="keywords" content ="Escritorio, Virtual, html, css, Uniovi" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="icon" href="multimedia/imagenes/favicon.ico"/>
+    
+   
+</head>
+
+<body>
+    <header>
+        <h1>Escritorio Virtual</h1>   
+        <nav>
+            <a tabindex="1" accesskey="i" href="index.html">Escritorio Virtual</a>
+            <a tabindex="2" accesskey="s" href="sobremi.html">Sobre Mi</a>  
+            <a tabindex="3" accesskey="n" href="noticias.html">Noticias</a>  
+            <a tabindex="4" accesskey="a" href="agenda.html">Agenda</a>
+            <a tabindex="5" accesskey="m" href="meteorologia.html">Meteorologia</a>
+            <a tabindex="6" accesskey="v" href="viajes.html">Viajes</a>  
+            <a tabindex="7" accesskey="j" href="juegos.html">Juegos</a> 
+            
+        </nav>
+    </header>
+
+    <h2>Sobre mi</h2>
+
+    <picture>
+        <source srcset="multimedia/imagenes/fotoMovil.jpg" media="(max-width: 465px)"/>
+        <source srcset="multimedia/imagenes/fotoTablet.jpg" media="(max-width: 799px)"/>
+        <source srcset="multimedia/imagenes/fotoEscritorio.jpg" media="(min-width: 800px)"/>
+        <img title="Daniel Alberto Alonso Fernandez" src="multimedia/imagenes/fotoEscritorio.jpg" alt="Foto Daniel Alberto Alonso Fernandez" />
+    </picture>
+
+    <p>Nombre: Daniel Alberto</p>
+
+    <p>Apellidos: Alonso Fernandez</p>
+
+    <p>Identificacion UO: UO283794</p>
+
+    <p>Correo electronico: uo283794@uniovi.es</p>
+
+    <p>Me llamo Daniel y soy un alumno de la Escuela de Ingenieria Informatica de Oviedo.</p>
+
+    <section>
+        <h3>Aficiones</h3>
+        <ul>
+            <li>Practicar Surf</li>
+            <li>Practicar Escalada Deportiva</li>
+            <li>Investigar en el sector de la seguridad Informatica</li>
+            <li>Investigar en el sector del IoT</li>
+            <li>Practicar motociclismo</li>   
+        </ul>
+    </section>
+
+    <section>
+        <h3>Gustos musicales</h3>
+        <ol>
+            <li>AC/DC
+                <ul>
+                    <li>T.N.T</li>
+                    <li>Thunderstruck</li>
+                    <li>Back In Black</li>
+                </ul>
+            </li>
+
+            <li>Aerosmith
+                <ul>
+                    <li>Dream On</li>
+                    <li>Eat The Rich</li>
+                    <li>Criyin</li>
+                </ul>
+            </li>
+
+            <li>Green Day
+                <ul>
+                    <li>Basket Case</li>
+                    <li>Boulevard of Broken Dreams</li>
+                    <li>American Idiot</li>
+                </ul>
+            </li>
+
+            <li>Sum 41
+                <ul>
+                    <li>In Too Deep</li>
+                    <li>Still Waiting</li>
+                    <li>With Me</li>
+                </ul>
+            </li>
+
+            <li>Eminem
+                <ul>
+                    <li>Without Me</li>
+                    <li>Lose Yourself</li>
+                    <li>Superman</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Asignaturas Favoritas</h3>
+        <dl>
+            <dt>Seguridad en Sistemas Informaticos</dt>
+            <dd>Asignatura impartida por el profesor Jose Manuel Redondo en la que se enseñan múltiples conceptos del mundo de la ciberseguridad.</dd>
+
+            <dt>Diseño del Software</dt>
+            <dd>Asignatura impartida por el profesor Cesar Fernandez en la que se enseñan los principios y patrones de diseños que debería seguir todo software. </dd>
+
+            <dt>Algoritmia</dt>
+            <dd>Asignatura impartida por el profesor Juan Ramon Perez en la que se enseñan los diferentes algoritmos capaces de resolver distintos problemas de la forma más optima. </dd>
+
+            <dt>Informatica Forense y Auditoria</dt>
+            <dd>Asignatura impartida por el profesor Antonio Garcia en la que enseñan diferentes tecnicas que un informatico forense deberia aplicar en diferentes escenarios legales.</dd>
+
+            <dt>Administracion de Sistemas y Redes</dt>
+            <dd>Asignatura impartida por el profesor Jose Antonio Corrales en la que enseñan como realizar diferentes tareas relativas a los sistemas operativos Windows Server y Linux.</dd>
+        </dl>
+    </section>
+
+    <aside>
+        <h3>Temperaturas medias de Oviedo</h3>
+        <table>
+            <tr>
+                <th scope = "col" id="fila">Medidas</th>
+                <th scope = "col" id="c1">2012</th>
+                <th scope = "col" id="c2">2013</th>
+                <th scope = "col" id="c3">2014</th>
+                <th scope = "col" id="c4">2015</th>
+                <th scope = "col" id="c5">2016</th>
+                <th scope = "col" id="c6">2017</th>
+                <th scope = "col" id="c7">2018</th>
+                <th scope = "col" id="c8">2019</th>
+                <th scope = "col" id="c9">2020</th>
+                <th scope = "col" id="c10">2021</th>
+            </tr>
+            <tr>
+                <th scope = "row" id="f1" headers="fila">Temperatura</th>
+                <td headers="f1 c1">12.7</td>
+                <td headers="f1 c2">12.3</td>
+                <td headers="f1 c3">13.5</td>
+                <td headers="f1 c4">13.4</td>
+                <td headers="f1 c5">13.2</td>
+                <td headers="f1 c6">13.3</td>
+                <td headers="f1 c7">13.1</td>
+                <td headers="f1 c8">13.2</td>
+                <td headers="f1 c9">13.8</td>
+                <td headers="f1 c10">13.0</td>
+            </tr>
+        </table>
+    </aside>
+
+
+
+    <h3>Peliculas Favoritas</h3>
+    <a title="Descifrando Enigmas"  href="https://www.filmaffinity.com/es/film617730.html"><p>Descrifrando Enigma</p></a>
+    <a title="Intocable"  href="https://www.filmaffinity.com/es/film217719.html"><p>Intocable</p></a>
+
+    <section>
+        <h3>Lugar Favorito</h3>
+            <h4>Video de Asturias</h4>
+                <video title="Video Asturias" controls>
+                    <source src = "multimedia/videos/video.mp4" type="video/mp4">
+                    <source src = "multimedia/videos/video.webm" type="video/webm">
+                </video>
+
+            <h4>Himno de Asturias</h4>
+                <audio title="Himno Asturias" controls>
+                    <source src="multimedia/audios/audio.mp3" type="audio/mpeg">
+                    <source src="multimedia/audios/audio.wav" type="audio/wav">
+                </audio>
+    </section>
+
+</body>
+</html>
